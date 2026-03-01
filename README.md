@@ -1,8 +1,8 @@
-AuthFlow UI 
+##AuthFlow UI 
 
 React Authentication Flow Project
 
-About
+##About
 
 AuthFlow UI is a frontend-focused authentication system built using React.
 
@@ -10,7 +10,7 @@ The project focuses on understanding authentication flow, form validation, prote
 
 This project serves as a strong foundation for building a larger scalable application in the future.
 
-Features
+##Features
 
 User Registration Form
 
@@ -34,13 +34,13 @@ LocalStorage user persistence
 
 Basic route protection logic
 
-How It Works
+##How It Works
 Form Handling
 
 Forms are managed using React Hook Form.
 Validation runs before submission and prevents invalid data from being processed.
 
-Mock API Integration
+## Mock API Integration
 
 Instead of a real backend, a fake API simulates:
 
@@ -52,11 +52,11 @@ Error response (for specific emails)
 
 This creates a realistic authentication flow without backend setup.
 
-Toast Notifications
+## Toast Notifications
 
 Success and error messages are displayed using toast notifications instead of alerts, providing a modern user experience.
 
-Authentication Flow
+## Authentication Flow
 
 After successful registration:
 
@@ -69,12 +69,12 @@ From there, user navigates to the Dashboard
 The Dashboard checks authentication state.
 If no user is found, access is denied and redirected back.
 
-Authentication Concepts Covered
+## Authentication Concepts Covered
 Login Flow (Structure Ready)
 
 Project structure supports adding login functionality easily.
 
-JWT Basics (Frontend Understanding)
+## JWT Basics (Frontend Understanding)
 
 Explains how tokens are typically handled and stored on the frontend (simulation level).
 
@@ -82,7 +82,7 @@ Protected Routes
 
 Dashboard access depends on authentication state.
 
-Role-Based Access (Planned Extension)
+## Role-Based Access (Planned Extension)
 
 Structure allows future role-based restrictions (admin, user, etc.).
 
@@ -91,7 +91,7 @@ Token Storage (Best Practices Overview)
 Currently uses localStorage for learning purposes.
 Future upgrades may include secure cookie handling and token expiration logic.
 
-Project Structure
+## Project Structure
 
 Register Page → Handles user registration
 
@@ -105,7 +105,7 @@ Fake API Utility → Simulates backend behavior
 
 Toast Integration → Handles user feedback
 
-Technologies Used
+## Technologies Used
 
 React
 
@@ -119,7 +119,7 @@ react-hot-toast
 
 JavaScript
 
-Learning Outcome
+## Learning Outcome
 
 Understanding frontend authentication architecture
 
@@ -135,7 +135,7 @@ Structuring scalable React projects
 
 Improving UX with loading states and notifications
 
-Future Improvements
+## Future Improvements
 
 Full login implementation
 
@@ -155,7 +155,7 @@ Animation and transition improvements
 
 Error boundary handling
 
-Notes
+## Notes
 
 This project focuses on frontend authentication concepts.
 Backend logic is intentionally simulated.
