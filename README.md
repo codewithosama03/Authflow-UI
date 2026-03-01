@@ -1,8 +1,8 @@
-##AuthFlow UI 
+## AuthFlow UI 
 
 React Authentication Flow Project
 
-##About
+## About
 
 AuthFlow UI is a frontend-focused authentication system built using React.
 
@@ -10,7 +10,7 @@ The project focuses on understanding authentication flow, form validation, prote
 
 This project serves as a strong foundation for building a larger scalable application in the future.
 
-##Features
+## Features
 
 User Registration Form
 
@@ -34,7 +34,7 @@ LocalStorage user persistence
 
 Basic route protection logic
 
-##How It Works
+## How It Works
 Form Handling
 
 Forms are managed using React Hook Form.
