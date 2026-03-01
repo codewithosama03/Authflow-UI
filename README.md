@@ -9,7 +9,7 @@ It demonstrates modern authentication concepts including form validation, protec
 
 This project simulates a real-world authentication workflow and is designed as a foundation for a larger scalable application.
 
-The UI will continue to be improved and new features will be added progressively.
+The UI will continue to be improved, and new features will be added progressively.
 
 Overview
 
@@ -79,7 +79,7 @@ Success response
 
 Error response (for specific emails)
 
-This helps mimic real authentication behavior.
+This mimics real authentication behavior.
 
 3. Toast Notifications
 
@@ -93,10 +93,10 @@ User data is stored in localStorage
 
 User is redirected to a Success screen
 
-From there, user navigates to Dashboard
+From there, the user navigates to the Dashboard
 
-Dashboard checks if user exists in storage.
-If not, user is redirected back to Register.
+The Dashboard checks if a user exists in storage.
+If not, the user is redirected back to Register.
 
 Authentication Concepts Covered
 Login Flow (Foundation Ready)
@@ -118,6 +118,7 @@ System structure allows adding user roles (admin, user, etc.) to restrict access
 Token Storage (Best Practices – Overview)
 
 Current implementation uses localStorage for learning purposes.
+
 Future improvements may include:
 
 Secure cookie strategy
